@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+li {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+}
+
+.slide {
+  overflow: auto;
+  width: 900px;
+  margin: 20px auto;
+}
+
+.first {
+  width: 450px;
+  height: 500px;
+  background-color: rgb(197, 202, 213);
+  border-radius: 10px;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform-origin: bottom right;
+  transition: all 0.5s ease;
+  z-index: 100;
+  overflow: hidden;
+}
+.first .chat-container {
+  padding: 0 1rem 10px 1rem;
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.hide {
+  right: 2.5rem;
+  bottom: 2.5rem;
+  transform: scale(0);
+  opacity: 0;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
