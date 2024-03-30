@@ -129,39 +129,10 @@ export const categorys = [
   {
     id: 5,
     image:
-      "https://www.bon-clic-bon-genre.eu/vignette2/px7211armanty-marine-3_202102260027562.jpg",
+      "https://www.hanzo.com.my/image/hanzo/image/cache/data/all_product_images/product-848/WeChat%20Image_20210907211241-2048x2048.jpg",
     title: "Hat",
   },
-  {
-    id: 6,
-    image:
-      "https://classic.cdn.media.amplience.net/i/hibbett/6956G_4000_main1?fmt=webp&w=300&h=360&bg=rgb(255,255,255)&img404=404&v=0",
-    title: "Shoes",
-  },
-  {
-    id: 7,
-    image:
-      "https://www.thewarehouse.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-twl-master-catalog/default/dwf7a21521/images/hi-res/C7/12/R2852954_32.jpg?sw=765&sh=765",
-    title: "T-shirt",
-  },
-  {
-    id: 8,
-    image:
-      "https://seamlessbespoke.com/cdn/shop/products/DrawstringBlue_600x600_crop_center.jpg?v=1616056012",
-    title: "Pants",
-  },
-  {
-    id: 9,
-    image:
-      "https://www.bon-clic-bon-genre.eu/vignette2/px7211armanty-marine-3_202102260027562.jpg",
-    title: "Hat",
-  },
-  {
-    id: 10,
-    image:
-      "https://www.bon-clic-bon-genre.eu/vignette2/px7211armanty-marine-3_202102260027562.jpg",
-    title: "Hat",
-  },
+  
 ];
 
 export const categorysDetails = [

@@ -28,4 +28,19 @@ class Products extends Model
         return $this->hasMany(Vote::class);
     }
 
+    public function votes()
+    {
+        return $this->hasMany(Vote::class);
+    }
+
+    public function upvotes()
+    {
+        return $this->hasMany(Vote::class)->where('is_upvote',true);
+    }
+
+    public function downvotes()
+    {
+        return $this->hasMany(Vote::class)->where('is_upvote',false);
+    }
+
 }
